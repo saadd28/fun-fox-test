@@ -14,6 +14,7 @@
     position: absolute;
     top: 1%;
     left: 12%;
+    width: 180px;
     
 }
 
@@ -112,4 +113,25 @@
 .dropdown select option[selected] {
     background-color: #CD3F97; 
     color: #fff; 
+}
+
+@media (max-width: 1024px) {
+    .screen1_week1_img{
+        width: 150px;
+        top: 2%;
+    }
+    .screen1_communications_img{
+        width: 40px;
+    }
+
+    .screen1_nav_btn{
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .screen1_week1_img{
+        width: 120px;
+        top: 3%;
+    }
 }

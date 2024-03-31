@@ -24,3 +24,5 @@ export { default as Screen2ParaBG } from "./screen2_para_bg.svg";
 export { default as Screen2SettingImg1 } from "./screen2_setting_img1.svg";
 export { default as Screen2SettingImg2 } from "./screen2_setting_img2.svg";
 export { default as Screen2HintsBtn } from "./screen2_hints_btn.svg";
+
+export { default as FunFoxLogo } from "./fun_fox_logo.svg";

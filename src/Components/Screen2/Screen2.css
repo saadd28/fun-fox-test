@@ -33,9 +33,7 @@
 
 }
 
-.screen2_settings_img_container{
 
-}
 
 .screen2_settings_img{
     width: 100%;
@@ -78,10 +76,6 @@ width: 100%;
     width: 16%;
     justify-content: space-evenly;
     /* padding-right: 5em; */
-}
-
-.screen2_hints_label{
-
 }
 
 
@@ -157,4 +151,67 @@ width: 100%;
     display: inline;
     vertical-align: middle; 
     margin: 0 5px; 
+}
+
+
+@media (max-width: 1024px) {
+
+    
+    .screen2_heading{
+        font-size: 2.5rem;
+    }
+    .screen2_subheading{
+        font-size: 1.9rem;
+
+    }
+    .screen2_para{
+        font-size: 1.5rem;
+    }
+    .screen2_hints_icons{
+        width: 40px;
+    }
+    .screen2_bottom_para_text{
+        font-size: 1.5rem;
+    }
+    .screen2_hints_row_input_container{
+        width: 75%;
+    }
+    .screen2_inline_img{
+        width: 30px;
+    }
+    .screen2_hints_row_second_half{
+        width: 20%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    
+    .screen2_heading{
+        font-size: 2rem;
+    }
+    .screen2_subheading{
+        font-size: 1.4rem;
+
+    }
+    .screen2_para{
+        font-size: 1rem;
+    }
+    .screen2_hints_icons{
+        width: 30px;
+    }
+    .screen2_bottom_para_text{
+        font-size: 0.99rem;
+    }
+    .screen2_hints_row_input_container{
+        width: 70%;
+    }
+    .screen2_inline_img{
+        width: 20px;
+    }
+    .screen2_hints_row_second_half{
+        width: 24%;
+    }
+
 }
