@@ -17,3 +17,10 @@ export { default as Screen1Commuincations } from "./screen1_communications.svg";
 export { default as Screen1PrevBtn } from "./screen1_prev_btn.svg";
 export { default as Screen1ForwBtn } from "./screen1_forw_btn.svg";
 export { default as Screen1InfoBtn } from "./screen1_info_btn.svg";
+
+export { default as Screen2ClockIcon } from "./screen2_clock_icon.svg";
+export { default as Screen2HomeIcon } from "./screen2_home_icon.svg";
+export { default as Screen2ParaBG } from "./screen2_para_bg.svg";
+export { default as Screen2SettingImg1 } from "./screen2_setting_img1.svg";
+export { default as Screen2SettingImg2 } from "./screen2_setting_img2.svg";
+export { default as Screen2HintsBtn } from "./screen2_hints_btn.svg";

@@ -1,15 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Skeleton from "./Components/Skeleton/Skeleton";
-import Screen1 from "./Screens/Screen1/Screen1";
+import MainScreen from "./Screens/MainScreen/MainScreen";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Skeleton />
+        <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Screen1 />} />
+          <Route path="/" element={<MainScreen />} />
         </Routes>
       </BrowserRouter>
     </>
