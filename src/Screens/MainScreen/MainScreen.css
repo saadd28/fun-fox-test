@@ -1,12 +1,10 @@
 .screen1_box{
-    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    /* border: 2px solid red; */
 
 }
 
@@ -25,21 +23,23 @@
     cursor: pointer;
 }
 
-.screen1_main_box{
+.hints_btn:hover{
+    transform: scale(1.05);
     transition: 0.5s;
+
+}
+
+.screen1_main_box{
     background-color: white;
     width: 87%;
-    /* height: 80%; */
     border-radius: 15px;
     padding: 3.5em;
     margin-top: 11em;
     z-index: 20;
 
-    /* margin-top: 5%; */
     
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 
 }
 
@@ -57,6 +57,12 @@
     z-index: 2;
 }
 
+.screen1_communications_img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+
 
 .screen1_nav_container{
     display: flex;
@@ -68,6 +74,13 @@
     width: 45px;
     cursor: pointer;
 }
+
+.screen1_nav_btn:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+
 
 .dropdown select {
     height: 100%;

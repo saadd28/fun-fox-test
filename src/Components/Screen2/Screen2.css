@@ -137,6 +137,11 @@ width: 100%;
 
 }
 
+.screen2_hints_icons:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
 .screen2_bottom_para_text{
 
     position: absolute;
