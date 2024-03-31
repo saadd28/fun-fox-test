@@ -1,5 +1,21 @@
-.bg_img{
+/* .bg_img{
     position: absolute;
     width: 100%;
     height: 100%;
+} */
+
+.skeleton_bg_img{
+    position: absolute;
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+    z-index: 0;
+
+}
+.skeleton_bg_left_img{
+    left: 0;
+}
+
+.skeleton_bg_right_img{
+    right: 0;
 }

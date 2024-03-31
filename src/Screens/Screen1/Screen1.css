@@ -1,0 +1,255 @@
+.screen1_box{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid red; */
+
+}
+
+.screen1_week1_img{
+    position: absolute;
+    top: 1%;
+    left: 12%;
+    
+}
+
+.screen1_main_box{
+    background-color: white;
+    width: 87%;
+    /* height: 80%; */
+    border-radius: 15px;
+    padding: 3.5em;
+    margin-top: 11em;
+    z-index: 20;
+
+    /* margin-top: 5%; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.screen1_header_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    /* padding: 3em 0; */
+    /* border: 2px solid red; */
+
+}
+
+.screen1_heading_bg_img{
+    /* height: 120%;
+    width: 120%; */
+    z-index: 1;
+
+}
+
+.screen1_heading{
+    position: absolute;
+
+    /* box-shadow: 0px 0px 11.047767639160156px 0px #00000040; */
+    font-family:var(--Short_Stack);
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    z-index: 2;
+    color: white;
+
+    
+
+}
+
+.screen1_paragraph{
+    font-family: var(--Short_Stack);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    /* padding: 0.2em 0; */
+    z-index: 2;
+
+}
+
+.screen1_third_para{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    /* padding: 0 3em; */
+    /* font-weight: 200 !important; */
+    /* padding-top: 4em; */
+    /* border: 2px solid red; */
+
+
+
+
+}
+
+.screen1_third_para_bg_img{
+    width: 100%;
+    /* max-height: min-content; */
+    z-index: -1;
+    /* height: 150px;
+    object-fit: contain; */
+
+}
+.screen1_third_para_text{
+    position: absolute;
+
+    padding: 1.2em;
+    width: 85%;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+.screen1_child_graphic_img{
+    position: absolute;
+    right: 3%;
+    padding-top: 2%;
+    width: 9%;
+    /* bottom: -20; */
+
+}
+
+.screen1_clouds_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 2em 0;
+
+
+}
+
+.screen1_cloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 17%;
+
+}
+
+.screen1_cloud_img{
+    width: 100%;
+
+
+}
+
+.screen1_cloud_content{
+    position: absolute;
+
+    font-family: var(Short_Stack);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+
+}
+
+.screen1_bottom_para{
+    position: relative;
+    width: 100%;
+    padding-top: 4em;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.screen1_para_bg_box{
+    width: 100%;
+
+}
+
+.screen1_bottom_para_text{
+    position: absolute;
+    padding: 1em;
+    width: 92%;
+    /* margin: auto 0; */
+
+}
+
+.screen1_footer{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.screen1_communications_img{
+    width: 45px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.screen1_nav_container{
+    display: flex;
+    align-items: center;
+
+}
+
+.screen1_nav_btn{
+    width: 45px;
+    cursor: pointer;
+}
+
+.dropdown select {
+    height: 100%;
+    background-color: #CD3F97;
+    border: 2px solid #F8EBFD;
+    border-radius: 5px;
+    width: 70px;
+    font-family: var(--Short_Stack);
+    padding: 10px 8px;
+    color: white;
+
+    padding: 8px; 
+    font-size: 1.6rem; 
+    cursor: pointer; 
+    margin: 0 0.5em;
+}
+  
+.dropdown select:hover {
+    border-color: white; 
+}
+  
+.dropdown select:focus {
+    outline: none; 
+}
+
+.dropdown select::-ms-expand {
+    display: none; 
+}
+
+.dropdown select option {
+    padding: 2em !important; 
+    font-size: 1.5rem; 
+    background-color: #CD3F97;
+    color: white; 
+    cursor: pointer;
+}
+  
+.dropdown select option:hover {
+    background-color: #CD3F97; 
+    
+}
+  
+.dropdown select option[selected] {
+    background-color: #CD3F97; 
+    color: #fff; 
+}
